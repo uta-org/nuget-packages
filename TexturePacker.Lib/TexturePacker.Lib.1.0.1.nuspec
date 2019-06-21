@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>TexturePacker.Lib</id>
+    <version>1.0.1</version>
+    <title>Texture Packer (only LIB)</title>
+    <authors>z3nth10n</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/uta-org/TexturePacker/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/uta-org/TexturePacker/</projectUrl>
+    <iconUrl>https://www.codeandweb.com/img/texturepacker512.png</iconUrl>
+    <description>Small C# app that packs all the png from a folder int a set of square atlas textures.</description>
+    <summary>MIT License</summary>
+    <releaseNotes>Reworked package folders.</releaseNotes>
+    <copyright>Copyright (c) 2019 z3nth10n (United Teamwork Association)</copyright>
+    <language>en-US</language>
+    <tags>c#, unity3d, unity, texture, atlas, texture-packing, packing, packer</tags>
+  </metadata>
+  <files>
+  </files>
+</package>

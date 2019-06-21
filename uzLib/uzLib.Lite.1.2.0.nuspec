@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>uzLib.Lite</id>
+    <version>1.2.0</version>
+    <title>uzLib.Lite</title>
+    <authors>z3nth10n</authors>
+    <owners>z3nth10n</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/uta-org/uzLib.Lite/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/uta-org/uzLib.Lite</projectUrl>
+    <iconUrl>https://github.com/uta-org/uzLib.Lite/blob/master/icon.png?raw=true</iconUrl>
+    <description>The Lite version of my paid uzLib (Unity3D) API used as dependency of my open-source repos.</description>
+    <summary>MIT License</summary>
+    <releaseNotes>Added to NuGet
+Added all methods used on UnitySourceToolkit</releaseNotes>
+    <copyright>Copyright (c) 2019 z3nth10n (United Teamwork Association)</copyright>
+    <language>en-US</language>
+    <tags>api</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="UniGif" version="1.0.1" />
+        <dependency id="uzLib.Lite.ExternalCode" version="1.0.2" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

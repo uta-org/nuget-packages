@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UniGif</id>
+    <version>1.0.1</version>
+    <title>UniGif</title>
+    <authors>z3nth10n,WestHillApps</authors>
+    <owners>z3nth10n,WestHillApps</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/uta-org/UniGif/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/uta-org/UniGif</projectUrl>
+    <iconUrl>https://github.com/uta-org/UniGif/blob/68af87f047d370913a2dde14f1f869dbd16fb5b5/Assets/UnityGif/Resources/example.gif?raw=true</iconUrl>
+    <description>GIF image decoder for Unity.</description>
+    <summary>MIT License</summary>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright (c) 2019 z3nth10n (United Teamwork Association)</copyright>
+    <language>en-US</language>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="uzLib.Lite.ExternalCode" version="1.0.2" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\net461\Editor\UniGif.VisualStudio.UnityEditor.dll" target="lib\net461\Editor\UniGif.VisualStudio.UnityEditor.dll" />
+    <file src="lib\net461\UniGif.VisualStudio.dll" target="lib\net461\UniGif.VisualStudio.dll" />
+    <file src="lib\net461\uzLib.Lite.ExternalCode.dll" target="lib\net461\uzLib.Lite.ExternalCode.dll" />
+    <file src="lib\net461\uzLib.Lite.ExternalCode.pdb" target="lib\net461\uzLib.Lite.ExternalCode.pdb" />
+  </files>
+</package>

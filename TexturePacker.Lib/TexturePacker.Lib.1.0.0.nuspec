@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>TexturePacker.Lib</id>
+    <version>1.0.0</version>
+    <title>Texture Packer (only LIB)</title>
+    <authors>z3nth10n</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/uta-org/TexturePacker/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/uta-org/TexturePacker/</projectUrl>
+    <iconUrl>https://www.codeandweb.com/img/texturepacker512.png</iconUrl>
+    <description>Small C# app that packs all the png from a folder int a set of square atlas textures.</description>
+    <summary>MIT License</summary>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright (c) 2019 z3nth10n (United Teamwork Association)</copyright>
+    <language>en-US</language>
+    <tags>c#, unity3d, unity, texture, atlas, texture-packing, packing, packer</tags>
+  </metadata>
+  <files>
+    <file src="Debug\TexturePacker.Lib.dll" target="Debug\TexturePacker.Lib.dll" />
+    <file src="Debug\TexturePacker.Lib.pdb" target="Debug\TexturePacker.Lib.pdb" />
+    <file src="ForUnity\Editor\TexturePacker.Lib.UnityEditor.Debug.dll" target="ForUnity\Editor\TexturePacker.Lib.UnityEditor.Debug.dll" />
+    <file src="ForUnity\Editor\TexturePacker.Lib.UnityEditor.pdb" target="ForUnity\Editor\TexturePacker.Lib.UnityEditor.pdb" />
+    <file src="ForUnity\Editor\TexturePacker.Lib.UnityEditor.Release.dll" target="ForUnity\Editor\TexturePacker.Lib.UnityEditor.Release.dll" />
+    <file src="ForUnity\Editor\UnityEditor.dll" target="ForUnity\Editor\UnityEditor.dll" />
+    <file src="ForUnity\TexturePacker.Lib.dll" target="ForUnity\TexturePacker.Lib.dll" />
+    <file src="Release\TexturePacker.Lib.dll" target="Release\TexturePacker.Lib.dll" />
+    <file src="Release\TexturePacker.Lib.pdb" target="Release\TexturePacker.Lib.pdb" />
+  </files>
+</package>

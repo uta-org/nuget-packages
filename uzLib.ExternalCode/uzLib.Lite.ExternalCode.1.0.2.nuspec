@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>uzLib.Lite.ExternalCode</id>
+    <version>1.0.2</version>
+    <title>External Code for uzLib.Lite</title>
+    <authors>z3nth10n</authors>
+    <owners>z3nth10n</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/uta-org/uzLib.Lite/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/uta-org/uzLib.Lite</projectUrl>
+    <iconUrl>https://github.com/uta-org/uzLib.Lite/blob/master/icon.png?raw=true</iconUrl>
+    <description>The Lite version of my paid uzLib (Unity3D) API used as dependency of my open-source repos.</description>
+    <summary>MIT License</summary>
+    <releaseNotes>Fully updated references</releaseNotes>
+    <copyright>Copyright (c) 2019 z3nth10n (United Teamwork Association).</copyright>
+    <language>en-US</language>
+    <tags>api</tags>
+  </metadata>
+  <files>
+    <file src="lib\net461\uzLib.Lite.ExternalCode.dll" target="lib\net461\uzLib.Lite.ExternalCode.dll" />
+  </files>
+</package>
